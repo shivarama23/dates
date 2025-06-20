@@ -1,1 +1,14 @@
 {"query": "Hi! Please create a job promotion using the following details: 1. Job Title: Frontend Developer 2. Department: Product Engineering 3. Location: Remote (Global) 4. Key Selling Points: - Work from anywhere with a flexible schedule - Cutting-edge projects using React and TypeScript - Collaborative team culture with monthly hackathons - Generous learning & development budget 5. Application Deadline: July 15, 2025 6. Target Audience: Mid-level developers with 3–5 years of experience in frontend frameworks 7. Company Culture: Fast-paced, supportive, and innovation-driven; diversity and creativity are core values. Please format the output for use on LinkedIn and in an email blast. Thanks!"}
+self.tool = CandidateTools()
+self.profile_id = self.tool.create_candidate(
+    name="John Doe",
+    email="john@example.com",
+    phone="123-456-7890",
+    location="New York",
+    experience=["Company A", "Company B"],
+    education=["University X"],
+    skills=["Python", "SQL"],
+    certifications=["AWS"],
+    languages=["English"],
+    references=["Ref A"]
+)
